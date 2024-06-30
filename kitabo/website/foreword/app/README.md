@@ -1,16 +1,14 @@
-**Project Structure**: 
-   ```
-   your-project-folder/
-   ├── assets/
-   │   └── js/
-   │       └── script.js
-   ├── index.html
-   └── styles/
-       └── style.css
-   ```
+### Dication
 
-```js
-webApp > main > assets > js > script.js
+```sh
+app/
+├── assets/
+│   ├── js/
+│   │   └── script.js
+│   └── css/
+│       └── style.css
+├── README.md 
+└── risk.html
 ```
 
 ### Stackoverflow
