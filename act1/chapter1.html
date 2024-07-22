@@ -438,13 +438,13 @@ document.write(`
 </aside>
 <p>Thank you for providing this detailed scenario. It’s an intriguing blend of historical events, Shakespearean themes, and statistical concepts. Let’s break down and analyze this situation using the framework you’ve described:</p>
 <ol class="arabic simple">
-<li><p>f(t) - Probability Density Function:
+<li><p><span class="math notranslate nohighlight">\(f(t)\)</span> - Probability Density Function:
 In this case, we’re using an exponential distribution to model the time from a king’s first son’s birth to the king’s death. The timeline spans 0-30 years, with the Danish king dying in battle with Norway at the 30-year mark.</p></li>
-<li><p>S(t) - Survival Function:
+<li><p><span class="math notranslate nohighlight">\(S(t)\)</span> - Survival Function:
 This represents the probability of the king surviving beyond time t. In our case, it would start at 1 and decrease over the 30-year period, reaching 0 at the point of the king’s death.</p></li>
-<li><p>h(t) - Hazard Function:
+<li><p><span class="math notranslate nohighlight">\(h(t)\)</span> - Hazard Function:
 For the crown prince, this is initially a constant (flat) hazard for 30 years, reflecting his steady but low risk of becoming king while his father lives. At his father’s death, this hazard spikes dramatically, representing the sudden increase in his likelihood of ascending to the throne.</p></li>
-<li><p>X̃ (X tilde) - Design Matrix:
+<li><p><span class="math notranslate nohighlight">\(\tilde{X}\)</span> - Design Matrix:
 This matrix would contain data on all crown princes throughout history, including factors like:</p></li>
 </ol>
 <ul class="simple">
@@ -454,9 +454,9 @@ This matrix would contain data on all crown princes throughout history, includin
 <li><p>Family dynamics (e.g., presence of ambitious uncles)</p></li>
 </ul>
 <ol class="arabic simple" start="5">
-<li><p>β - Coefficient Vector:
+<li><p><span class="math notranslate nohighlight">\(\beta\)</span> - Coefficient Vector:
 This would represent the impact of various factors on a prince’s likelihood of becoming king. For example, it might show that being the eldest son has a strong positive coefficient, while having ambitious relatives might have a negative coefficient.</p></li>
-<li><p>SV’ - Scenario Vector:
+<li><p><span class="math notranslate nohighlight">\(SV'\)</span> - Scenario Vector:
 For our Danish prince, this vector might include:</p></li>
 </ol>
 <ul class="simple">
@@ -470,13 +470,13 @@ For our Danish prince, this vector might include:</p></li>
 <p>Would you like me to elaborate on any specific part of this analysis or explore how this framework might apply to other historical or literary scenarios?</p>
 <p>Summary:</p>
 <ol class="arabic simple">
-<li><p>f(t) - Probability Density Function:
+<li><p><span class="math notranslate nohighlight">\(f(t)\)</span> - Probability Density Function:
 Represents the likelihood of a prince ascending to the throne at time t, influenced by factors like duty adherence vs. personal pursuits.</p></li>
-<li><p>S(t) - Survival Function:
+<li><p><span class="math notranslate nohighlight">\(S(t)\)</span> - Survival Function:
 The probability of a prince not yet becoming king by time t, affected by their balance of duty and personal interests.</p></li>
-<li><p>h(t) - Hazard Function:
+<li><p><span class="math notranslate nohighlight">\(h(t)\)</span> - Hazard Function:
 The instantaneous risk of becoming king, which may spike during political upheavals or when duty is neglected.</p></li>
-<li><p>X̃ (X tilde) - Design Matrix:
+<li><p><span class="math notranslate nohighlight">\(\tilde{X}\)</span> - Design Matrix:
 A matrix of factors for various princes, including:</p>
 <ul class="simple">
 <li><p>Age</p></li>
@@ -486,9 +486,9 @@ A matrix of factors for various princes, including:</p>
 <li><p>War/peace status of the kingdom</p></li>
 </ul>
 </li>
-<li><p>β - Coefficient Vector:
+<li><p><span class="math notranslate nohighlight">\(\beta\)</span> - Coefficient Vector:
 The impact of each factor on the likelihood of becoming king, with duty-related factors potentially having stronger coefficients.</p></li>
-<li><p>SV’ - Scenario Vector:
+<li><p><span class="math notranslate nohighlight">\(SV'\)</span> - Scenario Vector:
 A specific prince’s characteristics, e.g., Hamlet: young, highly educated, duty-neglecting, facing family intrigue.</p></li>
 </ol>
 <p>Now, let’s create some Python code to visualize these concepts:</p>
