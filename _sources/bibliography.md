@@ -5,6 +5,7 @@
 <iframe src="https://www.youtube.com/embed/3hItvO_Tpb4?start=1000" style="width:80%;height:350px;"></iframe>
 
 ```{bibliography}
+```
 
 This excerpt evokes a sharp critique of modern societal structures, especially those tied to education, finance, and institutionalized consumerism. Here's what stands out:
 
