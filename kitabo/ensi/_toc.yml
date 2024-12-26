@@ -50,5 +50,7 @@ chapters:
             file: act3/part3/part3_1
           - title: The Cheerful, Absurdist Pessimist
             file: act3/part3/part3_2
+          - title: Conclusion, Epilogue, Notes
+            file: act3/part3/part3_3
 
-  - file: act3/part3/part3_3
+  - file: act3/part3/bibliography
